@@ -1,0 +1,135 @@
+/*-----------Top Header-------*/
+
+.header-wrapper {
+    background: #0C3A6D;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+}
+.byulogo {
+    margin-left: 50px;
+    
+}
+.buttonBYU {
+    width: 80px;
+    height: 25px;
+    background: #26598B;
+    color: white;
+    border-radius:28px;
+
+}
+.search {
+    border-radius:28px;
+}
+/*input[type='text'] {
+    background-image: url("./images/search_box_icon.png");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+}*/
+.top-nav  {
+    display: flex; 
+    color: white; 
+    margin: 20px;
+    text-decoration: none; 
+     list-style-type: none;  
+}
+.top-nav li{
+    margin-left: 15px;
+    margin-top: 12px
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+/*-----------Sub Header-------*/
+.subheader-wrapper  {
+    background: #001948;
+    height: 37px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+header.subheader-wrapper div {
+    margin-left: 22px;
+}
+
+/*------------main section-------*/
+.main-wrapper {
+    background: url("./images/wave.png");
+    background-repeat: no-repeat;
+}
+.main-top {
+   display: flex;
+   justify-content: center;
+   
+}
+.main-image {
+   
+}
+.side-bar {
+    background: #D2E3F2;
+    width: 241px;
+    /*how to center the text pull it from the sides without increasing the box size */
+    
+}
+.side-bar-text {
+    padding: 25px 18px 0px;
+    
+}
+.events-news {
+    display: flex;
+    justify-content:center;
+    width: 938px;
+    margin: auto
+
+}
+.top-news-wrap {
+    display: flex
+}
+.bottom-news {
+    display: flex;
+}
+.robzombie {
+    display: flex;
+    justify-content: flex-end;
+}
+#test {
+    word-wrap: break-word;
+}
+.events {
+    flex-direction: column;
+}
+#event-header {
+    font-family: font133718;
+}
+/* BOTTOM SECTION */
+.bottom-section-wrapper {
+  font-family: 'Open Sans', sans-serif; 
+  display: flex;
+  justify-content:center;
+  background: #E8E8E8;  
+}
+.footer {
+    background: #DDDDDD
+}
+
+/*
+issues
+1. how to make an aisde column test indent 
+2.how to center the whole middle section and
+    make it shrink as screen gets smaller.
+    How to clone gradient stuff and purchased text fonts
+3.wrapping text like in event = separate tags or not and time stamp 
+4. when to use relative absolute instead of flex and other options, if I am going to use flex how to make each section the same width etc.  
+5. How to hide the bottom piece of the BYU logo
+6. how to style the input with the curved blue part inside
+7. how to order and build the news section  
+8. How to move the center image background to fit like on byu site 
+9.hot keys for building a tags and another element at the same time
+10. why does my side bar not show when screen is smaller?
+11. how to get the colleges and schools div to continue over the other column. 
+*/
