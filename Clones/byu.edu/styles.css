@@ -67,9 +67,6 @@ header.subheader-wrapper div {
    justify-content: center;
    
 }
-.main-image {
-   
-}
 .side-bar {
     background: #D2E3F2;
     width: 241px;
@@ -84,24 +81,26 @@ header.subheader-wrapper div {
     display: flex;
     justify-content:center;
     width: 938px;
-    margin: auto
+    margin: 35px auto
 
 }
+.news {
+    margin-left: 15px; 
+    width: 601px;
+}
 .top-news-wrap {
-    display: flex
+    display: flex;
+    
 }
 .bottom-news {
     display: flex;
-}
-.robzombie {
-    display: flex;
-    justify-content: flex-end;
 }
 #test {
     word-wrap: break-word;
 }
 .events {
     flex-direction: column;
+    
 }
 #event-header {
     font-family: font133718;
@@ -113,13 +112,21 @@ header.subheader-wrapper div {
   justify-content:center;
   background: #E8E8E8;  
 }
-.footer {
-    background: #DDDDDD
+.bottom-section-wrapper div {
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
+.footer {
+    background: #DDDDDD;
+    text-align: center;
+}
+.very-bottom {
+    height: 20px;
+}
 /*
 issues
-1. how to make an aisde column test indent 
+
 2.how to center the whole middle section and
     make it shrink as screen gets smaller.
     How to clone gradient stuff and purchased text fonts
@@ -132,4 +139,7 @@ issues
 9.hot keys for building a tags and another element at the same time
 10. why does my side bar not show when screen is smaller?
 11. how to get the colleges and schools div to continue over the other column. 
+----how did they do the time  are they just separate divs
+------moving the BYU logo absolute ?
+--can I move a background image or should I do z index on it and out it behind --
 */
